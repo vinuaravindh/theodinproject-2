@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Clown";
+    src: local("Carnivalee Freakshow"), url('CarnivaleeFreakshow-DLrm.ttf') format('TrueType');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-basis: 1;
+    align-items: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-family: "Clown";
+    height: 75%;
+}
+
+.container {
+    background-color: #FDF0D5;
+    flex: 1;
+    filter: drop-shadow(5px 8px 10px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 850px;
+    min-height: 770px;
+    max-width: 1370px;
+    height: 100%;
+}
+
+.title {
+    align-self: center;
+    font-size: 96px;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.user-points-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    align-self: center;
+    /* margin-top: 20px; */
+}
+
+.user {
+    justify-self:flex-start;
+}
+
+.players {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.points {
+    justify-self: center;
+    font-size: 90px;
+}
+
+.game-zone {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 60px; */
+}
+
+.user-zone {
+    border-width: 3px 8px 3px 0px;
+    border-style: solid;
+    border-color: #003049;
+    border-radius: 46px;
+    width: 336px;
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-zone img {
+    height: 75%;
+    width: auto;
+}
+
+.clown-zone {
+    border-width: 3px 0px 3px 8px;
+    border-style: solid;
+    border-color: #C1121F;
+    border-radius: 46px;
+    width: 336px;
+    height: 317px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-zone {
+    /* margin-top: 30px; */
+    display: flex;
+    width: min-content;
+    align-self: center;
+}
+
+.options img {
+    height: 100px;
+    width: auto;
+    pointer-events: none;
+}
+
+.options button img:nth-child(2) {
+    display: none;
+}
+
+.options button:hover img:nth-child(1) {
+    display: none;
+}
+
+.options button:hover img:nth-child(2) {
+    display: block;
+}
+
+.options button {
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+}
