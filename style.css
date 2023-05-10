@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Clown";
-    src: local("Carnivalee Freakshow"), url('CarnivaleeFreakshow-DLrm.ttf') format('TrueType');
+    src: local("Carnivalee Freakshow"), url('fonts/CarnivaleeFreakshow-DLrm.ttf') format('TrueType');
 }
 
 html {
